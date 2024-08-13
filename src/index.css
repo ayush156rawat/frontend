@@ -1,0 +1,38 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+input[type="text"],input[type="password"],input[type="email"] ,
+input[type="number"],input[type="tel"],
+textarea
+{
+    @apply w-full border my-2 py-2 px-3 rounded-2xl;
+
+}
+textarea{
+    height:140px;
+}
+
+button{
+    @apply bg-gray-300;
+}
+button.primary{
+    background-color:bg-gradient-to-r from-blue-500 to-purple-600;
+    @apply bg-gradient-to-r from-blue-500 to-purple-600 p-2 w-full text-white rounded-2xl;
+}
+
+.header-bg {
+    background-image: linear-gradient(to right, #3b82f6, #9333ea);
+  }
+  
+  
+.absolute {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  } 
