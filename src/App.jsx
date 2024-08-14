@@ -14,7 +14,7 @@ import BookingsPage from "./pages/BookingsPage.jsx";
 import BookingPage from "./pages/BookingPage.jsx";
 
 
-axios.defaults.baseURL = 'https://backend-1llhj6o67-ayush-rawats-projects-bfa73bf3.vercel.app/';
+axios.defaults.baseURL = 'https://backend-97ae.onrender.com';
 axios.defaults.withCredentials = true;
 
 function App() {
