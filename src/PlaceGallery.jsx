@@ -33,17 +33,17 @@ export default function PlaceGallery({place}) {
         <div>
           {place.photos?.[0] && (
             <div>
-              <img onClick={() => setShowAllPhotos(true)} className="aspect-square cursor-pointer object-cover" src={'https://backend-97ae.onrender.com/'+place.photos[0]} alt=""/>
+              <img onClick={() => setShowAllPhotos(true)} className="aspect-square cursor-pointer object-cover" src={'https://backend-97ae.onrender.com/uploads/'+place.photos[0]} alt=""/>
             </div>
           )}
         </div>
         <div className="grid">
           {place.photos?.[1] && (
-            <img onClick={() => setShowAllPhotos(true)} className="aspect-square cursor-pointer object-cover" src={'https://backend-97ae.onrender.com/'+place.photos[1]} alt=""/>
+            <img onClick={() => setShowAllPhotos(true)} className="aspect-square cursor-pointer object-cover" src={'https://backend-97ae.onrender.com/uploads/'+place.photos[1]} alt=""/>
           )}
           <div className="overflow-hidden">
             {place.photos?.[2] && (
-              <img onClick={() => setShowAllPhotos(true)} className="aspect-square cursor-pointer object-cover relative top-2" src={'https://backend-97ae.onrender.com/'+place.photos[2]} alt=""/>
+              <img onClick={() => setShowAllPhotos(true)} className="aspect-square cursor-pointer object-cover relative top-2" src={'https://backend-97ae.onrender.com/uploads/'+place.photos[2]} alt=""/>
             )}
           </div>
         </div>
