@@ -22,7 +22,7 @@ export default function Registerpage(){
     };
 
     return (
-        <div className="mt-4 grow flex items-center justify-around">
+        <div className="mt-[110px] grow flex items-center justify-around">
             <div className="mb-64">
                 <h1 className="text-4xl text-center mb-4">Register</h1>
                 <form className="max-w-2xl mx-auto border" onSubmit={RegisterUser}>
